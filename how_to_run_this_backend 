@@ -1,0 +1,18 @@
+Extract the files From zip
+Make a virtual environment in the source folder: "virtualenv venv"
+Activate it: ". venv/bin/activate"
+Install the require packages: "pip3 install -r requirements.txt"
+Start The Server: "python3 manage.py runserver"
+Add your "Domain Name" in setting.py file which is present inside census_mobile_arshan folder at line 28 in the Allowed Host list.
+IF any Doubt,please ping at 
+Mobile:7355216957
+Email:1arshanahmad@gmail.com
+
+How to Send Token Via API?
+Add a header with name: "Authorization" and header value: "Token 4d265e83dea92cb89d25d8c531e3e5ebf544703d" i.e. write Token then whitspace and then token receive when login. 
+See this picture: https://drive.google.com/file/d/14sMkExsLnZ4MryhMgZShYJmNahk-99no/view?usp=sharing 
+
+Login username: "administrator"
+Login password: "admin@123"
+
+Visit the Admin Panel for Creating New user,managing database,permissions,etc.Its is at url {<domain name>/admin}
